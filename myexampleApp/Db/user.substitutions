@@ -1,10 +1,10 @@
 # Example substitutions file
 
-file "db/dbExample1.db" {
+file "dbExample1.db" {
     { user = "jhlee" }
 }
 
-file db/dbExample2.db {
+file dbExample2.db {
     pattern { user, no, scan }
         { "jhlee", 1, "1 second" }
         { "jhlee", 2, "2 second" }

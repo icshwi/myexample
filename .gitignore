@@ -1,0 +1,9 @@
+bin/
+db/
+dbd/
+include/
+lib/
+O.linux*/
+O.Common/
+*~
+envPaths
